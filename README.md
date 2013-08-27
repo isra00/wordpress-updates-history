@@ -1,5 +1,7 @@
 Check for updates in multiple Wordpress instances hosted in the same server, and notify each owner by e-mail.
 
+![Screenshot of an e-mail notification](http://israelviana.es/wp-content/uploads/2013/08/wordpress-updates-check.png)
+
 Requirements
 ------------
 
