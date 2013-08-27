@@ -16,8 +16,8 @@ Installation
  1. Clone this repo.
  2. Run `composer install`.
  3. Create a new MySQL schema and run the `create_tables.sql`.
- 4. Edit the config section of `wp_updates.php` assigning values to the constants with your server's configuration (MySQL and SMTP credentials).
- 5. Fill the table `sites` with all the Wordpress sites that you want to check.
+ 4. Fill the table `sites` with all the Wordpress sites that you want to check.
+ 5. Edit the config section of `wp_updates.php` assigning values to the constants with your server's configuration (MySQL and SMTP credentials).
  6. Set up a daily cron like `0 23 * * * php /your-path-to-cloned-repo/wp_updates.php`. In this example, the cron job will run each day on 23:00.
 
 Before waiting the cron to run, you can manually run the checks in the command line: `php /your-path-to-cloned-repo/wp_updates.php`
