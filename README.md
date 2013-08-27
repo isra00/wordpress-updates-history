@@ -13,8 +13,8 @@ Requirements
 Installation
 ------------
 
- 1. Clone the repo.
- 2. Run composer install.
+ 1. Clone this repo.
+ 2. Run `composer install`.
  3. Create a new MySQL schema and run the `create_tables.sql`.
  4. Edit the config section of `wp_updates.php` assigning values to the constants with your server's configuration (MySQL and SMTP credentials).
  5. Fill the table `sites` with all the Wordpress sites that you want to check.
